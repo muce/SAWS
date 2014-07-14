@@ -11,10 +11,10 @@ nagios.sh runs as a cron and fetches the status of the nagios server. For each n
 
 The python script reads these files and sets the lights to a corresponding colour.
 
-SawsConfig.py need to be configured to read the status file 
+SawsConfig.py needs to be configured to read the status file 
 LOG_FILES = ["nagiosStatus_server1", "nagiosStatus_server2"]
 
-"LENGTHS" need to be modified. if you monitor two servers you need two values. This must add up to 60 including the spaces that the script adds. In this example one at each end and one in between the two servers. 
+"LENGTHS" need to be configured to set the number of LEDs you wish to set for each file the python script is reading. If you monitor two servers you need two values. This must add up to 60 including the spaces that the script adds between each block of LEDs. In this example one at each end and one in between the two servers,  3 spacers. 
 
 LENGTHS = [28, 29]
 
