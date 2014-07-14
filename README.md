@@ -1,8 +1,6 @@
 SAWS
 ====
 
-Silvano's Awesome Warning System
-
 
 Brief, How it works
 ===================
