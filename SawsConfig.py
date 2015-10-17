@@ -1,11 +1,12 @@
 LOG_DIR = "logs/"
-LOG_FILES = ["jenkinsJobStatus", "nagiosStatus"]
+LOG_FILES = ["jenkinsJobStatus", "nagiosStatus", "travisJobStatus_MyAwesomeRepo"]
 RELOAD_DELAY = 5.0 # reload log files in seconds
 STATUS_UPDATE_FAILURE = 120.0 # unless status = 3
 
+# change this to the USB port your BlinkyTape is on
 SERIAL_PORT = "/dev/tty.usbmodem1411"
 MAX_LEDS = 60
-LENGTHS = [27, 27]
+LENGTHS = [18, 18, 20]
 BLINK_SPEED = 180
 
 REDRAW_SPEED = 0.01
